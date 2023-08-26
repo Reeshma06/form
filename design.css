@@ -1,0 +1,52 @@
+body{
+    background: url("bc.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.regform{
+    width: 500px;
+    margin: 250px auto;
+    padding: 10px 20px 30px;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.regform h3{
+    text-align: center;
+    color: #068FFF;
+}
+.regform .txtlabel{
+    display: block;
+}
+ .input input{
+    width: 100%;
+    font-size: 1.5em;
+    border: 1px solid #4E4FEB;
+    box-shadow: 2px;
+    border-radius: 8px;
+    padding 1px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 10px;
+   
+ }
+ input :focus{
+    background-color: skyblue;
+
+ }
+ .btn{
+    text-align: center;
+ }
+ button{
+    background-color: #068FFF;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: 1px solid #4E4FEB;
+    box-shadow: 2px;
+ }
+ .radio input{
+    accent-color: #068FFF;
+    transform: scale(1.5);
+ }
